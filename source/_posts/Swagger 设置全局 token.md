@@ -6,7 +6,7 @@ tag: JAVA奇技淫巧
 swagger 是一个很使用的工具，但正常使用时，我们的接口需要登陆才能访问的。即登陆时，要传一个登陆后的 token 才能访问的。
 那这个怎么设置，才可以让所有接口都允许登陆后访问呢？
 ## 二、出现问题
-![1663126896353.jpg](img/90443fe7e3c8f3f4f01990c8d3d0b14d.jpg)
+![1663126896353.jpg](images/90443fe7e3c8f3f4f01990c8d3d0b14d.jpg)
 ## 三、解决问题
 ### 1）基本方法配置
 ```java
@@ -68,14 +68,14 @@ private List<ApiKey> securitySchemes() {
 ```
 
 ## 四、输入token
-![image20210106113342562.png](img/4f4af51a80b7520493933a316aa2d9c2.png)
+![image20210106113342562.png](images/4f4af51a80b7520493933a316aa2d9c2.png)
 
 ## 五、接口测试
 
-![image20210106113255981.png](img/dcebd80b7f10af56550d16c734c38d97.png)
+![image20210106113255981.png](images/dcebd80b7f10af56550d16c734c38d97.png)
 
 ## 六、接口访问效果
-![image20210106113224686.png](img/22047b637f1e06fb82a645e145d61d01.png)
+![image20210106113224686.png](images/22047b637f1e06fb82a645e145d61d01.png)
 
 
 
