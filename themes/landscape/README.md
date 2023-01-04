@@ -104,7 +104,7 @@ All of them are enabled by default. You can edit them in `widget` setting.
 - **fontawesome** - Only download [Font Awesome].
 - **fancybox** - Only download [Fancybox].
 - **clean** - Clean temporarily files and downloaded files.
-
+1
 [hexo]: https://hexo.io/
 [fancybox]: http://fancyapps.com/fancybox/
 [font awesome]: http://fontawesome.io/
