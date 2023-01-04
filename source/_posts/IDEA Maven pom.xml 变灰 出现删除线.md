@@ -1,0 +1,13 @@
+---
+title: IDEA Maven pom.xml 变灰 出现删除线
+tag: 工具使用
+---
+### 【问题】idea pom出现灰色删除线
+>使用IDEA编译器项目遇到问题
+
+![2020111614293488.png](img/21744aeabe3b515bd77e5b5d530dda15.png)
+
+> 项目中的pom.xml文件被设置在maven忽略清单中
+解决方案  如图 将变灰出现删除线的文件 取消选中
+
+![20201116143026768.png](img/e4726d7a64b27bd9f987222c1d3e6694.png)
