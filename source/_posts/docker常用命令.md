@@ -46,7 +46,7 @@ docker container start -p 80:80 --name my-nginx -v /path/to/nginx/html2:/usr/sha
 
 ### 5.docker cp
 ##### 如果要在已经创建的 Docker 容器中添加一条主机和宿主机的文件映射，你需要使用 Docker 的 cp 命令。
-
+<!--more-->
 ```shell
 docker cp <本地文件路径> <容器名>:<容器中的目标路径>
 ```

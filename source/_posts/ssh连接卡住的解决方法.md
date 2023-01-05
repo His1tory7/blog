@@ -2,6 +2,7 @@
 title: ssh连接卡住的解决方法
 tag: 服务器运维
 ---
+<!--more-->
 ## 一、现象
 > 1.使用xshell连接远程主机的时候一直卡在To escape to local shell, press 'Ctrl+Alt+]'.，要等很久才能连上：
 Connecting to 192.168.123.208:22...

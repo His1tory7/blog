@@ -2,6 +2,7 @@
 title: stream轻松遍历树形结构（菜单）
 tag: JAVA奇技淫巧
 ---
+<!--more-->
 ### stream轻松遍历树形结构
 #### Menu.java
 ```java
