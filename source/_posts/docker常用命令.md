@@ -4,13 +4,13 @@ tag: 服务器运维
 ---
 
 ### 1.docker run
-<!--more-->
+
 ##### docker run 是 Docker 的一个命令，它用于在 Docker 容器中运行一个指定的镜像。使用 docker run 命令可以在 Docker 容器中执行指定的命令，并且这个命令运行在一个新的容器中，容器会被自动创建。例如，要在一个新的容器中运行一个 Bash shell，可以使用下面的命令：
 ```shell
 docker run -it ubuntu /bin/bash
 ```
 ###### 其中，-it 参数表示要交互式地运行容器并分配一个终端，ubuntu 是镜像的名称，/bin/bash 是要在容器中运行的命令。
-
+<!--more-->
 ### 2.docker create
 ##### docker create 命令用于创建一个新的容器，但不会启动容器。该命令的格式如下：
 ```shell

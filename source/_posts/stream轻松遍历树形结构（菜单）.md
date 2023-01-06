@@ -3,7 +3,7 @@ title: stream轻松遍历树形结构（菜单）
 tag: JAVA奇技淫巧
 ---
 ### stream轻松遍历树形结构
-<!--more-->
+
 #### Menu.java
 ```java
 /**
@@ -48,6 +48,7 @@ tag: JAVA奇技淫巧
 
 }
 ```
+<!--more-->
 #### 递归查询子节点
 ```java
 /**

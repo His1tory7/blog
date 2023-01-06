@@ -2,7 +2,7 @@
 title: Dockerfile和启动脚本模板
 tag: 服务器运维
 ---
-<!--more-->
+
 ### Dockerfile
 ```
 FROM java:8
@@ -12,7 +12,7 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/xxx.jar"]
 ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ```
-
+<!--more-->
 ### 启动脚本
 ```
 #源jar路径  

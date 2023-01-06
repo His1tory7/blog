@@ -4,7 +4,7 @@ tag: JAVA奇技淫巧
 ---
 ## 一、前文
 > Groovy 中获取 Spring Beans 注入
-<!--more-->
+
 ## 二、实践
 > 引入 SpringUtils
 
