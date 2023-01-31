@@ -43,7 +43,7 @@ git push origin yourdev
 ## 四、扩展
 > 比如有两个分支master和tenant，在tenant分支上有多次提交，但是我只想提交某两次在master分支，主分支不允许执行提交操作。
 
-1.查看 tenant分支 提交版本号记录，找到我们要合并的两次版本号。
+1.查看 tenant分支 提交版本号记录，找到我们要合并的版本号。
 ```shell
 git log tenant
 ```
@@ -51,7 +51,7 @@ git log tenant
 ```shell
 git checkout master
 ```
-3.执行合并，commit-id为第一步查出的id
+3.执行合并，commit-id为第一步查出的id,多个提交id用逗号分隔
 ```shell
 git cherry-pick commit-id
 ```
