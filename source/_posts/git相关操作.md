@@ -30,7 +30,9 @@ git checkout -b yourdev
 ```shell
 git push origin yourdev
 ```
-7.若需要合并至 master 则需要发起Pull Request（合并请求）。具体流程如下：
+7.新建的分支进行代码修改。
+
+8.合并至 master 则需要发起Pull Request（合并请求）。具体流程如下：
 > (1)在仓库界面找到以下内容，并点击创建合并请求
 > 
 > (2)选择源分支为yourdev，目标分支为master
@@ -53,7 +55,7 @@ git checkout master
 ```shell
 git cherry-pick commit-id
 ```
-4.创建新分支，并把当前分支内容复制到新分支中
+4.创建新分支，并把当前分支内容复制到新分支中（此时也是在master分支新建分支）
 ```shell
 git checkout -b yourdev
 ```
