@@ -33,7 +33,7 @@ git push origin yourdev
 7.新建的分支进行代码修改。
 
 8.合并至 master 则需要发起Pull Request（合并请求）。具体流程如下：
-> (1)在仓库界面找到以下内容，并点击创建合并请求
+> (1)在仓库界面点击创建合并请求
 > 
 > (2)选择源分支为yourdev，目标分支为master
 > 
@@ -64,7 +64,7 @@ git checkout -b yourdev
 git push origin yourdev
 ```
 6.若需要合并至 master 则需要发起Pull Request（合并请求）。具体流程如下：
-> (1)在仓库界面找到以下内容，并点击创建合并请求
+> (1)在仓库界面点击创建合并请求
 >
 > (2)选择源分支为yourdev，目标分支为master
 >
