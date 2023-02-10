@@ -69,14 +69,14 @@ private List<ApiKey> securitySchemes() {
 ```
 
 ## 四、输入token
-![image20210106113342562.png](./Swagger设置全局token/4f4af51a80b7520493933a316aa2d9c2.png)
+![image20210106113342562.png](4f4af51a80b7520493933a316aa2d9c2.png)
 
 ## 五、接口测试
 
-![image20210106113255981.png](./Swagger设置全局token/dcebd80b7f10af56550d16c734c38d97.png)
+![image20210106113255981.png](dcebd80b7f10af56550d16c734c38d97.png)
 
 ## 六、接口访问效果
-![image20210106113224686.png](./Swagger设置全局token/22047b637f1e06fb82a645e145d61d01.png)
+![image20210106113224686.png](22047b637f1e06fb82a645e145d61d01.png)
 
 
 
