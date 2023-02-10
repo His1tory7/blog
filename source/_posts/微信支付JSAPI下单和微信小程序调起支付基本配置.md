@@ -6,9 +6,10 @@ categories: 三方接口相关
 - V2版本的API，通过MD5加密（本博文主要简述）
 - V3版本的API，使用RAS加密
 
+<!--more-->
+
 # 二、流程图
 ![1663567761419.jpg](b65ad115136ea3f19037b3406c10efaa.jpg)
-<!--more-->
 # 三、SpringBoot接口实现
 
 ## 1) 依赖
