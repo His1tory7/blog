@@ -1,0 +1,42 @@
+if (hexo-config('reading_progress.enable')) {
+  .reading-progress-bar {
+    --progress: 0;
+    background: convert(hexo-config('reading_progress.color'));
+    height: convert(hexo-config('reading_progress.height'));
+    position: fixed;
+    z-index: $zindex-5;
+
+    if (hexo-config('reading_progress.reversed')) {
+      width: calc(100% - var(--progress));
+    } else {
+      width: var(--progress);
+    }
+
+    if (hexo-config('reading_progress.start_at') == 'right') {
+      right: 0;
+    } else {
+      left: 0;
+    }
+
+    if (hexo-config('reading_progress.position') == 'bottom') {
+      bottom: 0;
+    } else {
+      top: 0;
+    }
+  }
+}
+
+if (hexo-config('motion.transition.post_block')) {
+  .post-block {
+    visibility: hidden;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 25px;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+    -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+  }
+  .pagination, .comments {
+    visibility: hidden;
+  }
+}
