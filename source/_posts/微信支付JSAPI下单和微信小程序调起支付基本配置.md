@@ -7,7 +7,7 @@ categories: 三方接口相关
 - V3版本的API，使用RAS加密
 
 # 二、流程图
-![1663567761419.jpg](./微信支付JSAPI下单和微信小程序调起支付基本配置/b65ad115136ea3f19037b3406c10efaa.jpg)
+![1663567761419.jpg](b65ad115136ea3f19037b3406c10efaa.jpg)
 <!--more-->
 # 三、SpringBoot接口实现
 
