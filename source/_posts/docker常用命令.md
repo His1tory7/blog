@@ -1,6 +1,6 @@
 ---
 title: docker常用命令
-tag: 服务器运维
+categories: 服务器运维
 ---
 
 ### 1.docker run

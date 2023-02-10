@@ -1,6 +1,6 @@
 ---
 title: stream轻松遍历树形结构（菜单）
-tag: JAVA奇技淫巧
+categories: JAVA奇技淫巧
 ---
 ### stream轻松遍历树形结构
 

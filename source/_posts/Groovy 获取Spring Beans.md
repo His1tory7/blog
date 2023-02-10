@@ -1,6 +1,6 @@
 ---
 title: Groovy 获取Spring Beans
-tag: JAVA奇技淫巧
+categories: JAVA奇技淫巧
 ---
 ## 一、前文
 > Groovy 中获取 Spring Beans 注入

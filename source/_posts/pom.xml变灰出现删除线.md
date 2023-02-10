@@ -1,6 +1,6 @@
 ---
 title: IDEA Maven pom.xml 变灰 出现删除线
-tag: 工具使用
+categories: 工具使用
 ---
 <!--more-->
 ### 【问题】idea pom出现灰色删除线

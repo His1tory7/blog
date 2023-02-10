@@ -1,6 +1,6 @@
 ---
 title: Swagger 设置全局 token
-tag: JAVA奇技淫巧
+categories: JAVA奇技淫巧
 ---
 ## 一、现象
 swagger 是一个很使用的工具，但正常使用时，我们的接口需要登陆才能访问的。即登陆时，要传一个登陆后的 token 才能访问的。

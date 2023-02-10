@@ -1,6 +1,6 @@
 ---
 title: 解决mysql8.0 GROUP BY报错
-tag: 服务器运维
+categories: 服务器运维
 ---
 <!--more-->
 ### 1、打开mysql安装目录打开my.ini文件

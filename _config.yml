@@ -5,7 +5,7 @@
 # Site
 title: 梦里花落知多少
 subtitle:
-description:
+description: "欢迎来到我的世界"
 keywords:
 author: eval
 language: zh-CN
@@ -41,8 +41,15 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
-  tab_replace:
+  auto_detect: true
+  tab_replace: ""
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -73,7 +80,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +88,36 @@ deploy:
   type:
 sitemap:
   path: sitemap.xml
+
+search:
+path: search.xml
+field: post
+format: html
+limit: 10000
+# 增加文章字数统计及阅读时长功能
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  wpm: 275
+  suffix: "mins."
+
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-wanko
+  display:
+    position: right
+    # width: 150 # 大小根据模型结构自己调整合适的
+    # height: 300
+  mobile:
+    show: true # 是否在手机端显示

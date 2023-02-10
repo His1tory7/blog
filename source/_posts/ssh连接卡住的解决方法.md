@@ -1,6 +1,6 @@
 ---
 title: ssh连接卡住的解决方法
-tag: 服务器运维
+categories: 服务器运维
 ---
 <!--more-->
 ## 一、现象
