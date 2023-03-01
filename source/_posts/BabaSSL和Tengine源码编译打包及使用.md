@@ -6,6 +6,7 @@ categories: 服务器运维
 Tengine 是由淘宝网发起的 Web 服务器项目，它在 Nginx 的基础上，针对大访问量网站的需求，添加了很多高级功能和特性。
 
 BabaSSL 是一款轻巧、灵活且靠谱的密码学和 TLS 协议工具集。BabaSSL 是蚂蚁集团和阿里集团的各主要业务中所使用的底层密码库，目前开源出来供业界使用。BabaSSL 广泛的应用在包括网络、存储、移动端 App 等场景中。
+<!--more-->
 ## 二、目的
 BabaSSL 国密双证书协议进行了支持，并统称为 NTLS
 
@@ -82,7 +83,6 @@ http {
 
 > 可以使用360国密版进行测试
 
-![image.png](kjsdhajksdhaksjd.png)
-![image.png](14f5e4ba5f78792301c0a1e7dc6825ae.png)
+![图片](e4726d7a64b27bd9f987222c1d3e6694.png)
 
 > 安装国密版curl 具体操作见：https://www.gmssl.cn/gmssl/index.jsp
