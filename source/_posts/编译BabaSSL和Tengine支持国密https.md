@@ -83,6 +83,6 @@ http {
 
 > 可以使用360国密版进行测试
 
-![图片](e4726d7a64b27bd9f987222c1d3e6694.png)
+![图片](kjsdhajksdhaksjd.png)
 
 > 安装国密版curl 具体操作见：https://www.gmssl.cn/gmssl/index.jsp
