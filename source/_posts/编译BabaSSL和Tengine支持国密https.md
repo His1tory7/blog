@@ -10,7 +10,7 @@ BabaSSL 是一款轻巧、灵活且靠谱的密码学和 TLS 协议工具集。B
 ## 二、目的
 BabaSSL 国密双证书协议进行了支持，并统称为 NTLS
 
-此次 Tengine 针对 BabaSSL 中的 NTLS 功能进行了适配，用户如果选择使用 BabaSSL 作为 Tengine 的底层密码库来实现通信加密的能力，则可以无需对 Tengine 进行任何代码改动，原生开启 NTLS 能力。
+此次 Tengine 针对  BabaSSL 中的 NTLS 功能进行了适配，用户如果选择使用 BabaSSL 作为 Tengine 的底层密码库来实现通信加密的能力，则可以无需对 Tengine 进行任何代码改动，原生开启 NTLS 能力。
 
 ## 三、步骤
 
