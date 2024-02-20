@@ -3,7 +3,7 @@ title: docker已经创建的 Docker 容器中更新挂载
 categories: 服务器运维
 ---
 
-如果你想在已经创建的 Docker1 容器中更新挂载，你可以使用 docker container update 命令。使用 docker container update 命令的语法如下：
+如果你想在已经创建的 Docker 容器中更新挂载，你可以使用 docker container update 命令。使用 docker container update 命令的语法如下：
 
 
 ```java 
