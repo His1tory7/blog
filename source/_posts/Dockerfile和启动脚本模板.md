@@ -1,6 +1,6 @@
 ---
 title: Dockerfile和启动脚本模板
-tag: 服务器运维
+categories: 服务器运维
 ---
 
 ### Dockerfile

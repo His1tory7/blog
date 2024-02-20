@@ -1,6 +1,6 @@
 ---
 title: 设置rabbitMq远程IP访问权限
-tag: 服务器运维
+categories: 服务器运维
 ---
 
 
