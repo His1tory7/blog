@@ -20,7 +20,7 @@ SOURCE_PATH=/data/deploy
 #docker 镜像/容器名字或者jar名字 这里都命名为这个
 SERVER_NAME=xxx.jar
 TAG=latest
-SERVER_PORT=端口 号
+SERVER_PORT=端口号
 #容器id
 CID=$(docker ps | grep "$SERVER_NAME" | awk '{print $1}')
 #镜像id
